@@ -21,7 +21,9 @@ To write a program to find the LU Decomposition of a matrix.
 
 
 '''Program to find L and U matrix using LU decomposition.
+
 Developed by: ROSHINI.R.K
+
 RegisterNumber: 212222230123
 '''
 import numpy as np
@@ -41,10 +43,11 @@ print(u)
 
 
 '''Program to solve a matrix using LU decomposition.
+
 Developed by:  ROSHINI.R.K
+
 RegisterNumber: 212222230123
 '''
-# To print X matrix (solution to the equations)
 
 import numpy as np
 
