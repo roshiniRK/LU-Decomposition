@@ -22,10 +22,15 @@ Developed by: ROSHINI.R.K
 RegisterNumber: 212222230123
 '''
 import numpy as np
+
 from scipy.linalg import lu
+
 arr=np.array(eval(input()))
+
 p,l,u=lu(arr)
+
 print(l)
+
 print(u)
 
 
@@ -39,11 +44,17 @@ RegisterNumber: 212222230123
 # To print X matrix (solution to the equations)
 
 import numpy as np
+
 from scipy.linalg import lu_factor,lu_solve
+
 A=np.array(eval(input()))
+
 B=np.array(eval(input()))
+
 lu,piv=lu_factor(A)
+
 x=lu_solve((lu,piv),B)
+
 print(x)
 
 ## Output:
